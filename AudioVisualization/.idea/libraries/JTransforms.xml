@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="JTransforms">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/JTransforms-3.1-with-dependencies" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/JTransforms/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/JTransforms/src/test/java" />
+      <root url="jar://$USER_HOME$/Downloads/JTransforms-3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
