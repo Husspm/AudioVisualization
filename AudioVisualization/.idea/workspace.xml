@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c51cd570-1ccc-47b0-b9fa-6770e0bac936" name="Default Changelist" comment="" />
+    <list default="true" id="c51cd570-1ccc-47b0-b9fa-6770e0bac936" name="Default Changelist" comment="Changes to the Audio class to make sure I get the right driver">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JAsioHost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JAsioHost.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JTransforms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JTransforms.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/Audio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled2/Audio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/ExampleHost$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/ExampleHost$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/ExampleHost$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/ExampleHost$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/ExampleHost$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/ExampleHost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/Film.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/Sketch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled2/Sketch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sketch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sketch.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,12 +24,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sketch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="340">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -22,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Audio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+            <state relative-caret-position="325">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,16 +91,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Patrick Hussey &lt;husspm@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ExampleHost.java" />
         <option value="$PROJECT_DIR$/src/Film.java" />
-        <option value="$PROJECT_DIR$/src/Audio.java" />
         <option value="$PROJECT_DIR$/src/frag2.glsl" />
         <option value="$PROJECT_DIR$/src/frag3.glsl" />
         <option value="$PROJECT_DIR$/src/frag.glsl" />
+        <option value="$PROJECT_DIR$/src/Audio.java" />
         <option value="$PROJECT_DIR$/src/Sketch.java" />
       </list>
     </option>
@@ -91,11 +119,12 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1087" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="975" />
+    <option name="height" value="1090" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -106,16 +135,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AudioVisualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -126,8 +146,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561405939597" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Processing/libraries/video/library" />
+    <property name="last_opened_file_path" value="C:/Windows/SysWOW64/jasiohost64 (1).dll" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -187,6 +208,14 @@
       <option name="presentableId" value="Default" />
       <updated>1554247046013</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changes to the Audio class to make sure I get the right driver">
+      <created>1564532313576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564532313576</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -199,9 +228,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3665208" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09255533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -210,14 +239,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49916106" weight="0.32914045" />
-      <window_info anchor="bottom" x="971" y="7" width="915" height="1054" id="Run" order="2" sideWeight="0.49832216" weight="0.2148847" />
+      <window_info anchor="bottom" x="971" y="7" width="915" height="1054" id="Run" order="2" sideWeight="0.49564052" weight="0.2135785" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914045" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50083894" side_tool="true" visible="true" weight="0.32914045" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4989059" weight="0.32914045" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.501006" side_tool="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49899396" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49832326" weight="0.3281471" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3301887" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24916108" />
@@ -229,27 +258,19 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes to the Audio class to make sure I get the right driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to the Audio class to make sure I get the right driver" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="jar://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master/JAsioHost.jar!/com/synthbot/jasiohost/AsioDriverListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master/JAsioHost.jar!/com/synthbot/jasiohost/AsioDriverListener.java" />
     <entry file="file://$PROJECT_DIR$/src/FFT.java" />
-    <entry file="jar://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master/JAsioHost.jar!/com/synthbot/jasiohost/AsioDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3118">
-          <caret line="377" column="26" selection-start-line="377" selection-start-column="26" selection-end-line="377" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master/JAsioHost.jar!/com/synthbot/jasiohost/AsioDriver.java" />
     <entry file="file://$PROJECT_DIR$/untitled2.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -275,17 +296,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sketch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Audio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+        <state relative-caret-position="340">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -310,6 +322,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Audio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -370,7 +392,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -378,7 +399,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>video</last-edited>
+          <last-edited>JAsioHost</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

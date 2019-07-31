@@ -1,19 +1,14 @@
 <component name="libraryTable">
   <library name="JAsioHost">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master/JAsioHost.jar!/" />
-      <root url="file://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master" />
+      <root url="jar://$USER_HOME$/Downloads/JAsioHost.jar!/" />
     </CLASSES>
     <JAVADOC />
     <NATIVE>
-      <root url="file://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master" />
+      <root url="file://C:/Windows/SysWOW64" />
     </NATIVE>
     <SOURCES>
-      <root url="jar://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master/JAsioHost.jar!/" />
-      <root url="file://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master" />
-      <root url="file://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master/src" />
+      <root url="jar://$USER_HOME$/Downloads/JAsioHost.jar!/" />
     </SOURCES>
-    <jarDirectory url="file://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master" recursive="false" />
-    <jarDirectory url="file://$USER_HOME$/Downloads/jasiohost-master/jasiohost-master" recursive="false" type="SOURCES" />
   </library>
 </component>

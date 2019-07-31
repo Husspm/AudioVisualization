@@ -19,7 +19,7 @@ public class Sketch extends PApplet {
     private PGraphics layerOne, layerTwo, layerThree;
 
     public void settings() {
-            size(1280, 900, P3D);
+            size(1440, 800, P3D);
             PJOGL.profile = 4;
         }
 
@@ -51,7 +51,7 @@ public class Sketch extends PApplet {
             println("Wrong file type");
             attempts++;
             if (attempts > 1) {
-                this.exit();
+//                this.exit();
                 System.exit(0);
             }
             selectInput("Please Select a film to process", "aquireFilmData");
@@ -65,7 +65,7 @@ public class Sketch extends PApplet {
                 film = new Movie(this, filmName);
                 film.loop();
                 film.volume(0);
-                film.speed(0.5f);
+//                film.speed(0.5f);
                 loop();
             }
         }
