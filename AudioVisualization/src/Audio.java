@@ -36,9 +36,9 @@ public class Audio implements AsioDriverListener {
     public void initAudio() {
         System.out.println("Method called from Setup, a New Audio Object was created");
         List<String> drivers = AsioDriver.getDriverNames();
-        System.out.println(drivers.get(1));
-        asioDriver = AsioDriver.getDriver(drivers.get(1));
-//        asioDriver.openControlPanel();
+        System.out.println(drivers);
+        asioDriver = AsioDriver.getDriver(drivers.get(0));
+        asioDriver.openControlPanel();
         System.out.println(asioDriver.getBufferPreferredSize());
         System.out.println(asioDriver.getLatencyInput());
         asioDriver.addAsioDriverListener(this);
